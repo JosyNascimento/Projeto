@@ -1,0 +1,118 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .nav {
+        top: 0;
+        position: sticky;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+    }
+   
+   
+    
+    header{
+        background-color: rgb(15, 79, 55);
+        width: 100%;
+        padding: 50px;
+    }
+
+    header  {
+        color: white;
+        font-size: 25px;
+    
+    }
+        h1 {
+            color: rgb(15, 79, 55);
+            justify-content: center;
+            margin: 20px;
+            
+        }
+
+        h2 {
+            color: black;
+            justify-content: center;
+            margin: 20px;
+            font-size: 20px;
+        }
+
+    
+.box {
+    background-color:  rgb(77, 195, 151);
+    width: 500px;
+    border-radius: 15px;
+}
+    .button-1, .button-3, .button-4 {
+        background-color:  rgb(255, 255, 255);
+        margin: 5px;
+        border-radius: 05px;
+        color: rgb(15, 79, 55);
+        font-weight: bolder;
+    }
+    .button-2 {
+        background-color:  rgb(29, 150, 106);
+        margin: 5px;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+
+    .form {
+        margin: 30px;
+        
+    }
+
+    .legend {
+        font-weight: bolder;
+        color:  rgb(15, 79, 55);
+        
+    }
+
+    .news h3 {
+        color:  rgb(15, 79, 55);
+        margin: 20px;
+    }
+    
+    .news p {
+        
+        margin: 20px;
+    }
+
+    .dados h1 {
+        color: rgb(15, 79, 55);
+        justify-content: center;
+        margin: 30px;
+        
+    }
+    #link-topo {
+        display: flex;
+        justify-content: right;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(15, 79, 55);
+        padding: 10px;
+        bottom: 10px;
+            }
+
+            footer {
+                background-color:  rgb(15, 79, 55);
+                width: 100%;
+                padding: 10px;
+            }
+        
+        
+            footer p{
+            
+            color: #ffffff;
+            font-size: 20px;
+            text-align: center;
+            
+            }

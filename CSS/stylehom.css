@@ -1,0 +1,128 @@
+.header {
+    color: red;
+
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+
+.nav {
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.links a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+.body {
+    padding-left: 20px;
+}
+
+.hero {
+    width: auto;
+    background-image: url(../img/Hero_home.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 720px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: white;
+    padding-left: 30px;
+}
+
+.carrossel {
+    position: relative;
+    min-height: 250px;
+    max-width: 800px;
+    margin: auto;
+    overflow: auto;
+    background-color:#02A659;
+    padding: 20px;
+}
+
+.carrossel-items .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* Certifique-se de que cada item ocupe todo o contêiner */
+    margin-left: 20px;
+    text-align: center;
+    border: solid 2px green;
+    border-radius: 8px;
+    background-color:#fff;
+    
+}
+
+.carrossel-items {
+    display: flex;
+    
+}
+.carrossel-imagem {
+    background-color: white; /* A aura branca */
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1); /* Um toque de magia para destacar (opcional) */
+}
+.carrossel-imagem img {
+    display: block; /* Remove espaços indesejados abaixo da imagem */
+    
+    width: 100px; /* Ou a largura desejada */
+    height: 100px; /* Ou a altura desejada, mantenha igual à largura para um círculo perfeito */
+    border-radius: 50%; /* A magia que cria o círculo */
+}
+.anterior,
+.proximo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.anterior {
+    left: 10px;
+    }
+
+.proximo {
+    right: 10px;
+}
+.btn {
+    border-radius: 5px;
+    background-color: burlywood;
+    color: maroon;
+    font-size: 18px;
+    
+}
+.btn:hover{
+    background-color: #02A659;
+}
+
+.footer {
+    color: green;
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+}

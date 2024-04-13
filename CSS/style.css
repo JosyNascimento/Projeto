@@ -1,0 +1,114 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-hover: #02A659;
+    --cor-primaria: #ffffff;
+}
+
+.nav {
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.links a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+header,
+footer {
+    background-color: #124A43;
+    width: 100%;
+    padding: 13.9px;
+}
+
+footer p {
+
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.dp-menu ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+.form-box {
+    border: 1px solid #ccc;
+    /* Borda da caixa */
+    border-radius: 5px;
+    /* Borda arredondada */
+    padding: 20px;
+    /* Espaçamento interno */
+    background-color: #f9f9f9;
+    /* Cor de fundo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    width: 30%;
+}
+
+.form-box h2 {
+    margin-top: 0;
+    /* Remova a margem superior do título */
+    font-size: 24px;
+    /* Tamanho da fonte do título */
+}

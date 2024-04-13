@@ -7,7 +7,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+.nav {
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.links a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
 
+}
 
 header {
 
@@ -21,7 +39,7 @@ header img {
 
 body {
     color: black;
-    background-color: rgb(229, 228, 160);
+  
 }
 
 p {
@@ -70,10 +88,9 @@ p {
 
 
 h1 {
-    text-align: justify;
-    color: blueviolet;
-    background-color: aqua;
+    text-align: justify;   
     height: 50px;
+    
 }
 
 
@@ -93,3 +110,4 @@ h2 {
     border: 2px solid black;
 
 }
+

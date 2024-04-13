@@ -1,0 +1,154 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.links a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+.header img {
+    display: flex;
+    width: 1450px;
+    height: 400px;
+    align-items: center;
+}
+
+
+
+.criadores h2 {
+    padding: 40px;
+    padding-left: 40px;
+    margin-top: 40px;
+    color: white;
+}
+
+.social-media img {
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    
+    
+
+}
+.social-media1 img {
+    flex-direction: row;
+    width: 50px;
+    height: 50px; 
+
+}
+.social-media2 img {
+   
+    width: 50px;
+    height: 50px; 
+
+}
+.social h3 {
+    margin: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.social h4,
+h1 {
+    margin: 80px;
+    font-size: 25px;
+    color: rgb(15, 79, 55);
+}
+
+
+.section p {
+    display: flex;
+    text-align: justify;
+    font-size: large;
+    margin: 15px;
+    text-indent: 20px;
+    color: white;
+
+}
+
+.texto p {
+    display: flex;
+    text-align: justify;
+    font-size: large;
+    margin: 15px;
+    text-indent: 20px;
+    color: rgb(15, 79, 55);
+}
+
+.container1 img,
+.container2 img,
+.container3 img,
+.container4 img {
+    border-radius: 5%;
+    margin: 40px;
+    width: 350px;
+}
+
+
+.bloco1 p {
+
+    text-align: justify;
+    font-size: x-large;
+    text-indent: 20px;
+    margin: 30px;
+
+
+}
+
+.container1,
+.container3,
+h2 {
+    display: flex;
+    background-color: rgb(23, 141, 98);
+
+}
+
+.container2,
+.container4 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+}
+
+
+#link-topo {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(15, 79, 55);
+    padding: 10px;
+    bottom: 10px;
+
+
+}
+
+
+    footer {
+        background-color:  rgb(15, 79, 55);
+        width: 100%;
+        padding: 20px;
+    }
